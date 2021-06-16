@@ -1,325 +1,343 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Frostgrave Reference Sheet</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-light bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">Frostgrave Reference</a>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Frostgrave Reference Sheet</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+      <span class="frosty navbar-brand text-light">Tabelas de Referência - Frostgrave</span>
+    </div>
+  </nav>
+  <div class="container bg-light p-3">
+    <div class="accordion mt-3" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <strong>Soldados Padrão</strong>
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope='col'>Soldado</th>
+                  <th scope='col'>Movimento</th>
+                  <th scope='col'>Luta</th>
+                  <th scope='col'>Mira</th>
+                  <th scope='col'>Armadura</th>
+                  <th scope='col'>Vontade</th>
+                  <th scope='col'>Saúde</th>
+                  <th scope='col'>Custo</th>
+                  <th scope='col'>Observação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope='row'>Rufião</th>
+                  <td>6</td>
+                  <td>+2</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>-1</td>
+                  <td>10</td>
+                  <td>Grátis</td>
+                  <td>Arma de 1 Mão</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Ladino</th>
+                  <td>6</td>
+                  <td>+1</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>Grátis</td>
+                  <td>Adaga</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Cão de Guerra</th>
+                  <td>8</td>
+                  <td>+1</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>-2</td>
+                  <td>8</td>
+                  <td>10po</td>
+                  <td>Animal</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Infantaria</th>
+                  <td>6</td>
+                  <td>+3</td>
+                  <td>+0</td>
+                  <td>11</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>50po</td>
+                  <td>Arma de 2 Mãos, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Soldado</th>
+                  <td>6</td>
+                  <td>+3</td>
+                  <td>+0</td>
+                  <td>12</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>75po</td>
+                  <td>Arma de 1 Mão, Escudo, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Apotecário</th>
+                  <td>6</td>
+                  <td>+1</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>+3</td>
+                  <td>12</td>
+                  <td>75po</td>
+                  <td>Cajado, Poção de Cura</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div class="container bg-light p-3">
-      <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              <strong>Soldados Padrão</strong>
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <table class="table table-striped table-info">
-                <thead>
-                  <tr>
-                    <th scope='col'>Soldado</th>
-                    <th scope='col'>Movimento</th>
-                    <th scope='col'>Luta</th>
-                    <th scope='col'>Mira</th>
-                    <th scope='col'>Armadura</th>
-                    <th scope='col'>Vontade</th>
-                    <th scope='col'>Saúde</th>
-                    <th scope='col'>Custo</th>
-                    <th scope='col'>Observação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope='row'>Rufião</th>
-                    <td>6</td>
-                    <td>+2</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>-1</td>
-                    <td>10</td>
-                    <td>Grátis</td>
-                    <td>Arma de 1 Mão</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>Ladino</th>
-                    <td>6</td>
-                    <td>+1</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>Grátis</td>
-                    <td>Adaga</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>Cão de Guerra</th>
-                    <td>8</td>
-                    <td>+1</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>-2</td>
-                    <td>8</td>
-                    <td>10po</td>
-                    <td>Animal</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>Infantaria</th>
-                    <td>6</td>
-                    <td>+3</td>
-                    <td>+0</td>
-                    <td>11</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>50po</td>
-                    <td>Arma de 2 Mãos, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>Soldado</th>
-                    <td>6</td>
-                    <td>+3</td>
-                    <td>+0</td>
-                    <td>12</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>75po</td>
-                    <td>Arma de 1 Mão, Escudo, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope='row'>Apotecário</th>
-                    <td>6</td>
-                    <td>+1</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>+3</td>
-                    <td>12</td>
-                    <td>75po</td>
-                    <td>Cajado, Poção de Cura</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <strong>Especialistas</strong>
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-info table-striped">
+              <thead>
+                <tr>
+                  <th scope='col'>Soldado</th>
+                  <th scope='col'>Movimento</th>
+                  <th scope='col'>Luta</th>
+                  <th scope='col'>Mira</th>
+                  <th scope='col'>Armadura</th>
+                  <th scope='col'>Vontade</th>
+                  <th scope='col'>Saúde</th>
+                  <th scope='col'>Custo</th>
+                  <th scope='col'>Observação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Arqueiro</th>
+                  <td>6</td>
+                  <td>+1</td>
+                  <td>+2</td>
+                  <td>11</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>75po</td>
+                  <td>Arco, Aljava, Adaga, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope="row">Besteiro</th>
+                  <td>6</td>
+                  <td>+1</td>
+                  <td>+2</td>
+                  <td>11</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>75po</td>
+                  <td>Besta, Aljava, Adaga, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope="row">Caçador de Tesouro</th>
+                  <td>7</td>
+                  <td>+3</td>
+                  <td>+0</td>
+                  <td>11</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>100po</td>
+                  <td>Arma de 1 Mão, Adaga, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope="row">Rastreador</th>
+                  <td>7</td>
+                  <td>+1</td>
+                  <td>+2</td>
+                  <td>11</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>100po</td>
+                  <td>Cajado, Arco, Aljava, Armadura leve</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cavaleiro</th>
+                  <td>5</td>
+                  <td>+4</td>
+                  <td>+0</td>
+                  <td>13</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>125po</td>
+                  <td>Arma de 1 Mão, Adaga, Escudo, Armadura Pesada</td>
+                </tr>
+                <tr>
+                  <th scope="row">Templário</th>
+                  <td>5</td>
+                  <td>+4</td>
+                  <td>+0</td>
+                  <td>12</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>125po</td>
+                  <td>Arma de 2 Mãos, Armadura Pesada</td>
+                </tr>
+                <tr>
+                  <th scope="row">Patrulheiro</th>
+                  <td>7</td>
+                  <td>+2</td>
+                  <td>+2</td>
+                  <td>11</td>
+                  <td>+2</td>
+                  <td>12</td>
+                  <td>125po</td>
+                  <td>Arco, Aljava, Arma de 1 Mão, Armadura Leve</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bárbaro</th>
+                  <td>6</td>
+                  <td>+4</td>
+                  <td>+0</td>
+                  <td>10</td>
+                  <td>+3</td>
+                  <td>14</td>
+                  <td>125po</td>
+                  <td>Arma de 2 Mãos, Adaga</td>
+                </tr>
+                <tr>
+                  <th scope="row">Atirador de Elite</th>
+                  <td>5</td>
+                  <td>+2</td>
+                  <td>+2</td>
+                  <td>12</td>
+                  <td>+1</td>
+                  <td>12</td>
+                  <td>125po</td>
+                  <td>Besta, Aljava, Arma de 1 Mão, Armadura Pesada</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              <strong>Especialistas</strong>
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <table class="table table-info table-striped">
-                <thead>
-                  <tr>
-                    <th scope='col'>Soldado</th>
-                    <th scope='col'>Movimento</th>
-                    <th scope='col'>Luta</th>
-                    <th scope='col'>Mira</th>
-                    <th scope='col'>Armadura</th>
-                    <th scope='col'>Vontade</th>
-                    <th scope='col'>Saúde</th>
-                    <th scope='col'>Custo</th>
-                    <th scope='col'>Observação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Arqueiro</th>
-                    <td>6</td>
-                    <td>+1</td>
-                    <td>+2</td>
-                    <td>11</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>75po</td>
-                    <td>Arco, Aljava, Adaga, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Besteiro</th>
-                    <td>6</td>
-                    <td>+1</td>
-                    <td>+2</td>
-                    <td>11</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>75po</td>
-                    <td>Besta, Aljava, Adaga, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Caçador de Tesouro</th>
-                    <td>7</td>
-                    <td>+3</td>
-                    <td>+0</td>
-                    <td>11</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>100po</td>
-                    <td>Arma de 1 Mão, Adaga, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Rastreador</th>
-                    <td>7</td>
-                    <td>+1</td>
-                    <td>+2</td>
-                    <td>11</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>100po</td>
-                    <td>Cajado, Arco, Aljava, Armadura leve</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cavaleiro</th>
-                    <td>5</td>
-                    <td>+4</td>
-                    <td>+0</td>
-                    <td>13</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>125po</td>
-                    <td>Arma de 1 Mão, Adaga, Escudo, Armadura Pesada</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Templário</th>
-                    <td>5</td>
-                    <td>+4</td>
-                    <td>+0</td>
-                    <td>12</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>125po</td>
-                    <td>Arma de 2 Mãos, Armadura Pesada</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Patrulheiro</th>
-                    <td>7</td>
-                    <td>+2</td>
-                    <td>+2</td>
-                    <td>11</td>
-                    <td>+2</td>
-                    <td>12</td>
-                    <td>125po</td>
-                    <td>Arco, Aljava, Arma de 1 Mão, Armadura Leve</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Bárbaro</th>
-                    <td>6</td>
-                    <td>+4</td>
-                    <td>+0</td>
-                    <td>10</td>
-                    <td>+3</td>
-                    <td>14</td>
-                    <td>125po</td>
-                    <td>Arma de 2 Mãos, Adaga</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Atirador de Elite</th>
-                    <td>5</td>
-                    <td>+2</td>
-                    <td>+2</td>
-                    <td>12</td>
-                    <td>+1</td>
-                    <td>12</td>
-                    <td>125po</td>
-                    <td>Besta, Aljava, Arma de 1 Mão, Armadura Pesada</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <strong>Armas</strong>
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="col">Arma</th>
+                  <th scope="col">Modificador de Dano</th>
+                  <th scope="col">Alcance Máximo</th>
+                  <th scope="col">Observação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Adaga</th>
+                  <td>-1</td>
+                  <td>-</td>
+                  <td>A primeira adaga não ocupa espaço do inventário</td>
+                </tr>
+                <tr>
+                  <th scope="row">Arma de 1 Mão</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th scope="row">Arma de 2 Mãos</th>
+                  <td>+2</td>
+                  <td>-</td>
+                  <td>Ocupa 2 espaços do inventário</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cajado</th>
+                  <td>-1</td>
+                  <td>-</td>
+                  <td>Modificador de -1 de dano para o Oponente em combate corpo-a-corpo</td>
+                </tr>
+                <tr>
+                  <th scope="row">Arco</th>
+                  <td>-</td>
+                  <td>24"</td>
+                  <td>Carregar e Atirar são consideradas uma única ação; Deve possuir uma aljava</td>
+                </tr>
+                <tr>
+                  <th scope="row">Besta</th>
+                  <td>+2</td>
+                  <td>24"</td>
+                  <td>Carregar e Atirar são ações separadas; Carregar pode substituir a ação de Movimento; Deve possuir
+                    uma aljava</td>
+                </tr>
+                <tr>
+                  <th scope="row">Desarmado</th>
+                  <td>-2</td>
+                  <td>-</td>
+                  <td>-2 de Luta
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              <strong>Armas</strong>
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <table class="table table-striped table-info">
-                <thead>
-                  <tr>
-                    <th scope="col">Arma</th>
-                    <th scope="col">Modificador de Dano</th>
-                    <th scope="col">Alcance Máximo</th>
-                    <th scope="col">Observação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Adaga</th>
-                    <td>-1</td>
-                    <td>-</td>
-                    <td>A primeira adaga não ocupa espaço do inventário</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Arma de 1 Mão</th>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Arma de 2 Mãos</th>
-                    <td>+2</td>
-                    <td>-</td>
-                    <td>Ocupa 2 espaços do inventário</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cajado</th>
-                    <td>-1</td>
-                    <td>-</td>
-                    <td>Modificador de -1 de dano para o Oponente em combate corpo-a-corpo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Arco</th>
-                    <td>-</td>
-                    <td>24"</td>
-                    <td>Carregar e Atirar são consideradas uma única ação; Deve possuir uma aljava</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Besta</th>
-                    <td>+2</td>
-                    <td>24"</td>
-                    <td>Carregar e Atirar são ações separadas; Carregar pode substituir a ação de Movimento; Deve possuir uma aljava</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Desarmado</th>
-                    <td>-2</td>
-                    <td>-</td>
-                    <td>-2 de Luta
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#armadura" aria-expanded="false" aria-controls="armadura">
-              <strong>Armaduras</strong>
-            </button>
-          </h2>
-          <div id="armadura" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <table class="table table-striped table-info">
-                <thead><tr>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#armadura"
+            aria-expanded="false" aria-controls="armadura">
+            <strong>Armaduras</strong>
+          </button>
+        </h2>
+        <div id="armadura" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
                   <th scope="col">Armadura</th>
                   <th scope="col">Modificador de Armadura</th>
                   <th scope="col">Observação</th>
-                </tr></thead>
-                <tbody><tr>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
                   <th scope="row">Escudo</th>
                   <td>+1</td>
                   <td>Não pode ser usado com Armas de 2 Mãos ou Cajados</td>
@@ -333,70 +351,980 @@
                   <th scope="row">Armadura Pesada</th>
                   <td>+2</td>
                   <td>-1 de Movimento</td>
-                </tr></tbody>
-              </table>
-            </div>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ModificadoresTiro" aria-expanded="false" aria-controls="ModificadoresTiro">
-              <strong>Modificadores de Tiro</strong>
-            </button>
-          </h2>
-          <div id="ModificadoresTiro" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <table class="table table-striped table-info">
-                <thead>
-                  <tr>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#ModificadoresTiro" aria-expanded="false" aria-controls="ModificadoresTiro">
+            <strong>Modificadores de Tiro</strong>
+          </button>
+        </h2>
+        <div id="ModificadoresTiro" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
                   <th scope="col">Situação</th>
                   <th scope="col">Modificador</th>
                   <th scope="col">Observação</th>
                 </tr>
               </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Terreno Intermediário</th>
-                    <td>+1</td>
-                    <td>Cada instância de terreno intermediário entre o atirador e o alvo aumenta em +1 a dificuldade de acertar. Isso é cumulativo, portanto 3 peças de Terreno Intermediário geram um modificador +3. Se a base do alvo está em contato com o terreno, o terreno conta como Cobertura em vez de Terreno Intermediário. Se a base do atirador estiver em contato com o terreno, ele não conta como Terreno Intermediário, apesar de poder bloquear a Linha de Visão. Outras Figuras contam como Terreno Intermediário.</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cobertura Leve</th>
-                    <td>+2</td>
-                    <td>O Alvo está em contato com uma cobertura sólida (pedras, paredes, madeira grossa, outras figuras, etc) que esconde até a metade de seu corpo, ou está em contato com cobertura leve (arbustos, vegetação rasteira) que esconde a maior parte de seu corpo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cobertura Pesada</th>
-                    <td>+4</td>
-                    <td>O Alvo está em contato com uma cobertura sólida que esconde a maior parte do seu corpo.</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Tiro Apressado</th>
-                    <td>+1</td>
-                    <td>O Atirador mouveu-se previamente durante a ativação.</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Alvo Grande</th>
-                    <td>-2</td>
-                    <td>O Alvo é particularmente Alto ou Largo. Isso, normalmente, só se aplica a criaturas com a Característica <strong>Grande</strong> </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <tbody>
+                <tr>
+                  <th scope="row">Terreno Intermediário</th>
+                  <td>+1</td>
+                  <td>Cada instância de terreno intermediário entre o atirador e o alvo aumenta em +1 a dificuldade de
+                    acertar. Isso é cumulativo, portanto 3 peças de Terreno Intermediário geram um modificador +3. Se a
+                    base do alvo está em contato com o terreno, o terreno conta como Cobertura em vez de Terreno
+                    Intermediário. Se a base do atirador estiver em contato com o terreno, ele não conta como Terreno
+                    Intermediário, apesar de poder bloquear a Linha de Visão. Outras Figuras contam como Terreno
+                    Intermediário.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cobertura Leve</th>
+                  <td>+2</td>
+                  <td>O Alvo está em contato com uma cobertura sólida (pedras, paredes, madeira grossa, outras figuras,
+                    etc) que esconde até a metade de seu corpo, ou está em contato com cobertura leve (arbustos,
+                    vegetação rasteira) que esconde a maior parte de seu corpo</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cobertura Pesada</th>
+                  <td>+4</td>
+                  <td>O Alvo está em contato com uma cobertura sólida que esconde a maior parte do seu corpo.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tiro Apressado</th>
+                  <td>+1</td>
+                  <td>O Atirador mouveu-se previamente durante a ativação.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Alvo Grande</th>
+                  <td>-2</td>
+                  <td>O Alvo é particularmente Alto ou Largo. Isso, normalmente, só se aplica a criaturas com a
+                    Característica <strong>Grande</strong> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#FalhaDeMagia" aria-expanded="false" aria-controls="FalhaDeMagia">
+            <strong>Dano por Falha de Conjuração</strong>
+          </button>
+        </h2>
+        <div id="FalhaDeMagia" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="col">A Rolagem falhou por:</th>
+                  <th scope="col">Dano sofrido pelo Conjurador</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1-4</td>
+                  <td>Nenhum</td>
+                </tr>
+                <tr>
+                  <td>5-9</td>
+                  <td>1 de Dano</td>
+                </tr>
+                <tr>
+                  <td>10-19</td>
+                  <td>2 de Dano</td>
+                </tr>
+                <tr>
+                  <td>20+</td>
+                  <td>5 de Dano</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#SobrevivenciaSoldado" aria-expanded="false" aria-controls="SobrevivenciaSoldado">
+            <strong>Sobrevivência de Soldado</strong>
+          </button>
+        </h2>
+        <div id="SobrevivenciaSoldado" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Rolagem</th>
+                  <th scope="Col">Resultado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1-4</td>
+                  <td>Morto</td>
+                </tr>
+                <tr>
+                  <td>5-8</td>
+                  <td>Gravemente Ferido</td>
+                </tr>
+                <tr>
+                  <td>9+</td>
+                  <td>Completamente Recuperado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#SobrevivênciadeConjuradores" aria-expanded="false" aria-controls="SobrevivênciadeConjuradores">
+            <strong>Sobrevivência de Conjuradores (p75)</strong> 
+          </button>
+        </h2>
+        <div id="SobrevivênciadeConjuradores" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Rolagem</th>
+                  <th scope="Col">Resultado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1-2</td>
+                  <td>Morto</td>
+                </tr>
+                <tr>
+                  <td>3-4</td>
+                  <td>Ferido Permanentemente</td>
+                </tr>
+                <tr>
+                  <td>5-6</td>
+                  <td>Ferido Gravemente</td>
+                </tr>
+                <tr>
+                  <td>7-8</td>
+                  <td>Por um Triz</td>
+                </tr>
+                <tr>
+                  <td>9+</td>
+                  <td>Completamente Recuperado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#FerimentosPermanentes" aria-expanded="false" aria-controls="FerimentosPermanentes">
+            <strong>Ferimentos Permanentes (p77)</strong> 
+          </button>
+        </h2>
+        <div id="FerimentosPermanentes" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Rolagem</th>
+                  <th scope="Col">Ferimento</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1-2</td>
+                  <td>Dedos do Pé perdidos</td>
+                </tr>
+                <tr>
+                  <td>3-6</td>
+                  <td>Perna Esmagada</td>
+                </tr>
+                <tr>
+                  <td>5-10</td>
+                  <td>Braço Esmagado</td>
+                </tr>
+                <tr>
+                  <td>11-12</td>
+                  <td>Dedos da Mão Perdidos</td>
+                </tr>
+                <tr>
+                  <td>13-14</td>
+                  <td>Fraqueza Permanente</td>
+                </tr>
+                <tr>
+                  <td>15-16</td>
+                  <td>Cicatrizes Psicológicas</td>
+                </tr>
+                <tr>
+                  <td>17-18</td>
+                  <td>Ferimento Incurável</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Queixo Esmagado</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Olho Perdido</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#TabelaExperiencia" aria-expanded="false" aria-controls="TabelaExperiencia">
+            <strong>Experiência</strong> 
+          </button>
+        </h2>
+        <div id="TabelaExperiencia" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Experiência</th>
+                  <th scope="Col">Requisito</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>+5</td>
+                  <td>Para cada tentativa falha de Conjurar uma Magia que resulte em dano para o Mago ou o Aprendiz.</td>
+                </tr>
+                <tr>
+                  <td>+10</td>
+                  <td>Para cada Magia Conjurada pelo Mago ou Aprendiz.*</td>
+                </tr>
+                <tr>
+                  <td>+40</td>
+                  <td>Para cada partida que o Mago Participar.</td>
+                </tr>
+                <tr>
+                  <td>+40</td>
+                  <td>Para cada Tesouro Resgatado com sussesso pelo Mago ou seu Bando.</td>
+                </tr>
+                <tr>
+                  <td>+5</td>
+                  <td>Para cada Criatura Não Controlada morta pelo Mago ou seu bando.**</td>
+                </tr>
+                <tr>
+                  <td colspan="2">* Nenhuma experiência é ganha por conjurar uma Magia com Número de Conjuração 6 ou menos.
+                    <br>
+                    ** Até um máximo de +50 por Partida. Não se aplica a criaturas que garantam uma quantidade específica de Experiência em um Cenário, nem para criaturas especificamente criadas ou conjuradas po um membro do bando do Mago.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#Tesouros" aria-expanded="false" aria-controls="Tesouros">
+            <strong>Tesouros</strong> 
+          </button>
+        </h2>
+        <div id="Tesouros" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Rolagem</th>
+                  <th scope="Col">Tesouro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>50po</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>d20 x 10po</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>d20 x 20po</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>20po, Poções (3)</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>40po, Poções (2)</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>20po, Pergaminho (1)</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>40po, Pergaminhos (2)</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Arma/Armadura Mágica</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>20po, Arma/Armadura Mágica</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>40po, Arma/Armadura Mágica</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Item Mágico</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>20po, Item Mágico</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>40po, Item Mágico</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Grimório</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>20po, Grimório</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>40po, Grimório</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>60po, Grimório</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>80po, Grimório</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>100po, Grimório</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>200po, Grimório</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#Pocoes" aria-expanded="false" aria-controls="TPocoes">
+            <strong>Poções (p89)</strong> 
+          </button>
+        </h2>
+        <div id="Pocoes" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="Col">Rolagem</th>
+                  <th scope="Col">Poção</th>
+                  <th scope="Col">Preço de Compra</th>
+                  <th scope="Col">Preço de Venda</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Poção de Cura</td>
+                  <td>75po</td>
+                  <td>50po</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Poção de Força</td>
+                  <td>100po</td>
+                  <td>40po</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Poção da Resistência</td>
+                  <td>50po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Elixir da Velocidade</td>
+                  <td>50po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Poção da Invisibilidade</td>
+                  <td>100po</td>
+                  <td>50po</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Coquetel Explosivo</td>
+                  <td>100po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Poção de Teletransporte</td>
+                  <td>500po</td>
+                  <td>100po</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Poção de Absorção Elemental</td>
+                  <td>200po</td>
+                  <td>80po</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Poção Cordial da Visão Pura</td>
+                  <td>200po</td>
+                  <td>80po</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Veneno</td>
+                  <td>100po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Filtro da Fúria</td>
+                  <td>300po</td>
+                  <td>120po</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Poção da Mente de Ferro</td>
+                  <td>50po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Garrafa De Escavação</td>
+                  <td>200po</td>
+                  <td>80po</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Filtro de Pó de Fada</td>
+                  <td>50po</td>
+                  <td>30po</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Óleo de Construto</td>
+                  <td>100po</td>
+                  <td>50po</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Poção do Hálito de Fogo</td>
+                  <td>200po</td>
+                  <td>80po</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Poção da Preservação</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Elixir do Camaleão</td>
+                  <td>400po</td>
+                  <td>140po</td>
+                </tr>
+                <tr>
+                  <td>19-20</td>
+                  <td colspan="3">Rolar na Tabela de Poções Maiores</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#PocoesMaiores" aria-expanded="false" aria-controls="PocoesMaiores">
+            <strong>Poções Maiores (p89)</strong> 
+          </button>
+        </h2>
+        <div id="PocoesMaiores" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="col">Rolagem</th>
+                  <th scope="col">Poção</th>
+                  <th scope="col">Preço de Compra</th>
+                  <th scope="col">Preço de Venda</th>
+                  <th scope="col">Custo de Ingredientes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1-2</td>
+                  <td>Poção Cordial de Empoderamento</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>3-4</td>
+                  <td>Poção de Encolhimento</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>5-6</td>
+                  <td>Poção da Restauração</td>
+                  <td>2.000po</td>
+                  <td>300po</td>
+                  <td>750po</td>
+                </tr>
+                <tr>
+                  <td>7-8</td>
+                  <td>Garrafa dos Sonhos e Pesadelos</td>
+                  <td>2.000po</td>
+                  <td>300po</td>
+                  <td>500po</td>
+                </tr>
+                <tr>
+                  <td>9-10</td>
+                  <td>Trago de Estilhaçar</td>
+                  <td>1.500po</td>
+                  <td>200po</td>
+                  <td>600po</td>
+                </tr>
+                <tr>
+                  <td>11-12</td>
+                  <td>Garrafa da Escuridão</td>
+                  <td>1.500po</td>
+                  <td>300po</td>
+                  <td>600po</td>
+                </tr>
+                <tr>
+                  <td>13-14</td>
+                  <td>Vácuo Etéreo</td>
+                  <td>2.000po</td>
+                  <td>200po</td>
+                  <td>800po</td>
+                </tr>
+                <tr>
+                  <td>15-16</td>
+                  <td>Poção da Invulnerabilidade</td>
+                  <td>-</td>
+                  <td>400po</td>
+                  <td>2.000po</td>
+                </tr>
+                <tr>
+                  <td>17-18</td>
+                  <td>Garrafa da Nulidade</td>
+                  <td>-</td>
+                  <td>200po</td>
+                  <td>1.000po</td>
+                </tr>
+                <tr>
+                  <td>19-20</td>
+                  <td>Elixir da Vida</td>
+                  <td>-</td>
+                  <td>1.000po</td>
+                  <td>3.000po</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#MagiaAleatória" aria-expanded="false" aria-controls="MagiaAleatória">
+            <strong>Magia Aleatória</strong> 
+          </button>
+        </h2>
+        <div id="MagiaAleatória" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th rowspan="0" scope="col">Segunda Rolagem</th>
+                  <th scope="col" colspan="4">Primeira Rolagem</th>
+                </tr>
+                <tr>
+                  <th scope="col">1-5</th>
+                  <th scope="col">6-10</th>
+                  <th scope="col">11-15</th>
+                  <th scope="col">16-20</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Animar Caveira</td>
+                  <td>Ossos da Terra</td>
+                  <td>Golpe Mortal</td>
+                  <td>Controlar Desmorto</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Amaldiçoar</td>
+                  <td>Dardo Venenoso</td>
+                  <td>Companheiro Animal</td>
+                  <td>Familiar</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Pés Ligeiros</td>
+                  <td>Lentidão</td>
+                  <td>Ruir</td>
+                  <td>Ato Rápido</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Salto</td>
+                  <td>Diabrete</td>
+                  <td>Caminhar Entre os Planos</td>
+                  <td>Controlar Demônio</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Muralha</td>
+                  <td>Conjurar Tempestade</td>
+                  <td>Tiro Disperso</td>
+                  <td>Esfera Destrutiva</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Empurrar</td>
+                  <td>Palavra de Drenagem</td>
+                  <td>Runa Explosiva</td>
+                  <td>Escrever Pergaminho</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Teletransporte</td>
+                  <td>Invisibilidade</td>
+                  <td>Beleza</td>
+                  <td>Transpor</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Força</td>
+                  <td>Telecinese</td>
+                  <td>Encantar Armadura</td>
+                  <td>Controlar Construto</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Prontidão</td>
+                  <td>Visão Verdadeira</td>
+                  <td>Trancar Mente</td>
+                  <td>Controlar Mente</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Escudo</td>
+                  <td>Banir</td>
+                  <td>Luz Cegante</td>
+                  <td>Cura Milagrosa</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Dardo Ósseo</td>
+                  <td>Devorar Magia</td>
+                  <td>Roubar Vida</td>
+                  <td>Despertar Zumbi</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Lamaçal</td>
+                  <td>Neblina</td>
+                  <td>Controlar Animal</td>
+                  <td>Preparar Poção</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Decair</td>
+                  <td>Armazenar Tempo</td>
+                  <td>Petrificar</td>
+                  <td>Caminhar Temporal</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Praga de Insetos</td>
+                  <td>Rasgo Planar</td>
+                  <td>Possessão</td>
+                  <td>Invocar Demônio</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Disparo Elemental</td>
+                  <td>Esfera Elemental</td>
+                  <td>Martelo Elemental</td>
+                  <td>Escudo Elemental</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Pena Furiosa</td>
+                  <td>Absorver Conhecimento</td>
+                  <td>Palavra de Poder</td>
+                  <td>Ponte</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Translocar</td>
+                  <td>Ouro de Tolo</td>
+                  <td>Reluzir</td>
+                  <td>Soldado Ilusório</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Encantar Arma</td>
+                  <td>Granada</td>
+                  <td>Engastar Encantamento</td>
+                  <td>Animar Construto</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Percepção de Combate</td>
+                  <td>Olho do Mago</td>
+                  <td>Sugestão</td>
+                  <td>Revelar Segredo</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Círculo de Proteção</td>
+                  <td>Curar</td>
+                  <td>Delir</td>
+                  <td>Destruir Desmorto</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#ArmasArmadurasMagicas" aria-expanded="false" aria-controls="ArmasArmadurasMagicas">
+            <strong>Armas e Armaduras Mágicas</strong> 
+          </button>
+        </h2>
+        <div id="ArmasArmadurasMagicas" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <table class="table table-striped table-info">
+              <thead>
+                <tr>
+                  <th scope="col">Rolagem</th>
+                  <th scope="col">Arma/Armadura Mágica</th>
+                  <th scope="col">Efeitos</th>
+                  <th scope="col">Preço de Compra</th>
+                  <th scope="col">Preço de Venda</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Arma de 1 Mão</td>
+                  <td>+1 de Dano</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Arma de 1 Mão</td>
+                  <td>+1 de Luta</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Arma de 1 Mão</td>
+                  <td>+2 de Vontade</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Arma de 2 Mãos</td>
+                  <td>+1 de Dano</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Arma de 2 Mãos</td>
+                  <td>+1 de Luta</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Arma de 2 Mãos</td>
+                  <td>+2 de Vontade</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Arco</td>
+                  <td>+1 de Dano</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Arco</td>
+                  <td>+1 de Atirar</td>
+                  <td>600po</td>
+                  <td>250po</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Besta</td>
+                  <td>+1 de Dano</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Besta</td>
+                  <td>+1 de Atirar</td>
+                  <td>600po</td>
+                  <td>250po</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Adaga</td>
+                  <td>+1 de Luta</td>
+                  <td>400po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Adaga</td>
+                  <td>+1 de Dano</td>
+                  <td>400po</td>
+                  <td>150po</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Adaga</td>
+                  <td>+2 de Dano</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Armadura Leve</td>
+                  <td>+1 de Armadura</td>
+                  <td>600po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Armadura Pesada</td>
+                  <td>Absorção Elemental</td>
+                  <td>800po</td>
+                  <td>300po</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Anel de Proteção</td>
+                  <td>+1 de Armadura</td>
+                  <td>600po</td>
+                  <td>250po</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Capa de Proteção</td>
+                  <td>+1 de Armadura</td>
+                  <td>600po</td>
+                  <td>250po</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Capa da Noite</td>
+                  <td>Absorção Elemental</td>
+                  <td>500po</td>
+                  <td>200po</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Cajado</td>
+                  <td>+1 de Luta</td>
+                  <td>300po</td>
+                  <td>125po</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Escudo</td>
+                  <td>+1 de Armadura</td>
+                  <td>700po</td>
+                  <td>250po</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
